@@ -24,7 +24,7 @@ for i = 1:length(tuta_images)
     tuta_features = [tuta_features; features];
 end
 
-%% Cargar las imagenes de la Tuta Absoluta y extraer características. TODO: CAMBIAR POR FOTOS MÁS REALISTAS.
+%% Cargar las imagenes de las mariposas y extraer características. TODO: CAMBIAR POR FOTOS MÁS REALISTAS.
 
 %%% Carga Imagenes en celda %%%
 directorio = fullfile(pwd, 'database2'); % Directorio dentro del workspace donde se encuentran las imágenes
